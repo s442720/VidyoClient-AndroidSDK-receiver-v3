@@ -1,0 +1,349 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\f6371ef3131fc4cf17462a87049b2f17\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.2.aar\0f370240efe2cf65ee5ccfb19669239c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:15:1-25:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\39d2c92fbb3b59376bc358a74dd9ad3f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\134e1b9c9ebdf21b35afbd1d139bc673\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\4fbb40ddd0bcb603845a0b330a70b8ba\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\74b7f214059be299346dbf92ae862685\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.0.aar\3d1ddf2bc8f91b35addd20a549cdb644\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\319b4bc54f387fc02e5c30475704f289\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\a874a906448bb9a8157356684bfcbd33\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\782c6d8a695a0e869631a6193973057e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-rc01.aar\145cdeb9f9af8c62a7b75ff30bb30c7c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\media-1.0.0-rc01.aar\714ed5e2875b30e03b7ca5489ee75684\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\7b33c181a3292a26739bf48b9d06561c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\c24fb4dd397ffa0c45cf3fb298378099\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\f1e735f9de3357a9be0318a9743de28f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\17789d77742081f9f0c91b9d80951dab\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\344dca7d6a314af4f6bd31422ea68dde\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\282d71b57ed91efb38ff8788921e144b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\284302e042f9171c21c100bd42162c36\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\2e0ddc612976fbc06e5f84071d73475d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\6c48b6b7c89e7487e7006526745ac7c0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\22956b51804aacbf36d835aec7dd2878\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\198fa5e73cd9ac80ea29ea10f9415f90\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\702493196e7baf4ffac7683ec03dcbb8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2425ac9d209ea27df0336a467b764fb2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dd5e33cd0c23e610e4dfcf43bcc09027\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\810dc9292db3aed7128dfeee185d577e\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0eae36de127a1e381998662c7bd7ca31\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\ed6cabce076d20c4e9b37ac3bfae5b63\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\4cd0f3e8241ed1c8bc2ff60f8164bd56\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\62fee50f8a2db134c1baae41d7ce1261\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\3aea2b1c1d96f4974f0dfcb4ad6679ad\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\d6228515de42e8c28e01d510d69dfab8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\22e74cee50e9534903944b122602b2c5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ba1245f50467cde679b2af842d5a6130\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\7380d5498370160ea44615b063efcbc6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\8f389afbab02ce23ec1d27576b0db4af\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+	package
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.CAPTURE_AUDIO_OUTPUT
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:13:22-72
+uses-feature#android.hardware.camera
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:16:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:19:9-57
+uses-feature#0x00030000
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:21:5-23:35
+	android:glEsVersion
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:22:9-41
+	android:required
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:23:9-32
+application
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:25:5-53:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\f6371ef3131fc4cf17462a87049b2f17\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\f6371ef3131fc4cf17462a87049b2f17\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:23:5-40:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\39d2c92fbb3b59376bc358a74dd9ad3f\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\39d2c92fbb3b59376bc358a74dd9ad3f\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\4fbb40ddd0bcb603845a0b330a70b8ba\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\4fbb40ddd0bcb603845a0b330a70b8ba\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\74b7f214059be299346dbf92ae862685\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\74b7f214059be299346dbf92ae862685\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dd5e33cd0c23e610e4dfcf43bcc09027\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dd5e33cd0c23e610e4dfcf43bcc09027\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\810dc9292db3aed7128dfeee185d577e\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\810dc9292db3aed7128dfeee185d577e\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dd5e33cd0c23e610e4dfcf43bcc09027\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:28:9-41
+	android:roundIcon
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:29:9-54
+	android:icon
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:30:9-40
+activity#com.vidyo.vidyoconnector.StartingActivity
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:31:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.vidyo.vidyoconnector.MainActivity
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:38:9-52:20
+	android:label
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:41:13-45
+	android:launchMode
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:42:13-43
+	android:configChanges
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:40:13-59
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:39:13-41
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:vidyoconnector
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:44:13-51:29
+action#android.intent.action.VIEW
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:47:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:48:27-75
+data
+ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:50:17-57
+	android:scheme
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml:50:23-54
+uses-sdk
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\f6371ef3131fc4cf17462a87049b2f17\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\f6371ef3131fc4cf17462a87049b2f17\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.2.aar\0f370240efe2cf65ee5ccfb19669239c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.2.aar\0f370240efe2cf65ee5ccfb19669239c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-16.0.4.aar\77ea7e71c524ac983c85d0e5b9e93ed3\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\39d2c92fbb3b59376bc358a74dd9ad3f\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\39d2c92fbb3b59376bc358a74dd9ad3f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\134e1b9c9ebdf21b35afbd1d139bc673\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\134e1b9c9ebdf21b35afbd1d139bc673\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\4fbb40ddd0bcb603845a0b330a70b8ba\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\4fbb40ddd0bcb603845a0b330a70b8ba\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\74b7f214059be299346dbf92ae862685\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\74b7f214059be299346dbf92ae862685\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.0.aar\3d1ddf2bc8f91b35addd20a549cdb644\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.0.aar\3d1ddf2bc8f91b35addd20a549cdb644\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\319b4bc54f387fc02e5c30475704f289\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\319b4bc54f387fc02e5c30475704f289\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\a874a906448bb9a8157356684bfcbd33\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\a874a906448bb9a8157356684bfcbd33\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\782c6d8a695a0e869631a6193973057e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\782c6d8a695a0e869631a6193973057e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-rc01.aar\145cdeb9f9af8c62a7b75ff30bb30c7c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-rc01.aar\145cdeb9f9af8c62a7b75ff30bb30c7c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\media-1.0.0-rc01.aar\714ed5e2875b30e03b7ca5489ee75684\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\media-1.0.0-rc01.aar\714ed5e2875b30e03b7ca5489ee75684\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\7b33c181a3292a26739bf48b9d06561c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\7b33c181a3292a26739bf48b9d06561c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\c24fb4dd397ffa0c45cf3fb298378099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\c24fb4dd397ffa0c45cf3fb298378099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\f1e735f9de3357a9be0318a9743de28f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\f1e735f9de3357a9be0318a9743de28f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\17789d77742081f9f0c91b9d80951dab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\17789d77742081f9f0c91b9d80951dab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\344dca7d6a314af4f6bd31422ea68dde\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\344dca7d6a314af4f6bd31422ea68dde\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\282d71b57ed91efb38ff8788921e144b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\282d71b57ed91efb38ff8788921e144b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\284302e042f9171c21c100bd42162c36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\284302e042f9171c21c100bd42162c36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\2e0ddc612976fbc06e5f84071d73475d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\2e0ddc612976fbc06e5f84071d73475d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\6c48b6b7c89e7487e7006526745ac7c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\6c48b6b7c89e7487e7006526745ac7c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\22956b51804aacbf36d835aec7dd2878\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\22956b51804aacbf36d835aec7dd2878\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\198fa5e73cd9ac80ea29ea10f9415f90\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\198fa5e73cd9ac80ea29ea10f9415f90\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\702493196e7baf4ffac7683ec03dcbb8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\702493196e7baf4ffac7683ec03dcbb8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2425ac9d209ea27df0336a467b764fb2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2425ac9d209ea27df0336a467b764fb2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dd5e33cd0c23e610e4dfcf43bcc09027\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dd5e33cd0c23e610e4dfcf43bcc09027\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\810dc9292db3aed7128dfeee185d577e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\810dc9292db3aed7128dfeee185d577e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0eae36de127a1e381998662c7bd7ca31\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0eae36de127a1e381998662c7bd7ca31\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\ed6cabce076d20c4e9b37ac3bfae5b63\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\ed6cabce076d20c4e9b37ac3bfae5b63\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\4cd0f3e8241ed1c8bc2ff60f8164bd56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\4cd0f3e8241ed1c8bc2ff60f8164bd56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\62fee50f8a2db134c1baae41d7ce1261\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\62fee50f8a2db134c1baae41d7ce1261\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\3aea2b1c1d96f4974f0dfcb4ad6679ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\3aea2b1c1d96f4974f0dfcb4ad6679ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\d6228515de42e8c28e01d510d69dfab8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\d6228515de42e8c28e01d510d69dfab8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\22e74cee50e9534903944b122602b2c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\22e74cee50e9534903944b122602b2c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ba1245f50467cde679b2af842d5a6130\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ba1245f50467cde679b2af842d5a6130\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\7380d5498370160ea44615b063efcbc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\7380d5498370160ea44615b063efcbc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\8f389afbab02ce23ec1d27576b0db4af\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\8f389afbab02ce23ec1d27576b0db4af\AndroidManifest.xml:20:5-44
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\VidyoClient-AndroidSDK-receiver-v2\samples\VidyoConnector\android\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:33:9-39:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\b143c316affc09709f1ca975b190f9ce\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\788d28ba925d278efc5743c4d7477bde\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\97f2991f3a4c5db4c9def2863f4afbbf\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\tiama\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\557c954ebd88f69d000c9fef78fcdb0a\AndroidManifest.xml:24:13-58

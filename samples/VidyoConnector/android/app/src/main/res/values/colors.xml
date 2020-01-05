@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorBackground</color>
+    <color name="colorAccent">#9A6EFA</color>
+
+    <color name="colorBackground">#FFC2FB</color>
+    <color name="letterColor">#212121</color>
+    <color name="recyclerItemColor">#FFDAF8</color>
+
+</resources>

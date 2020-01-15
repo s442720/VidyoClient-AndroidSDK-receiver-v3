@@ -4,16 +4,16 @@ public class Call {
     private String caller;
     private String receiver;
     private String token;
-    private int connected;
+    private int status;
 
     public Call() {
 
     }
-    public Call(String caller, String receiver, String token, int connected) {
+    public Call(String caller, String receiver, String token, int status) {
         this.caller = caller;
         this.receiver = receiver;
         this.token = token;
-        this.connected = connected;
+        this.status = status;
     }
 
     public String getCaller() {
@@ -40,11 +40,11 @@ public class Call {
         this.token = token;
     }
 
-    public int getConnected() {
-        return connected;
+    public int getStatus() {
+        return status;
     }
 
-    public void setConnected(int connected) {
-        this.connected = connected;
+    public void setStatus(int status) {
+        this.status = status;
     }
 }

@@ -24,52 +24,49 @@ import com.google.firebase.database.ValueEventListener;
 
 public class StartingActivity extends AppCompatActivity {
 
-    FirebaseAuth auth;
-    FirebaseUser firebaseUser;
     DatabaseReference reference;
-    String token;
     String path;
+    String phone = "695556329";
+    int status;
+    String token;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_starting);
 
-        String txt_email = "g@gmail.com";
-        String txt_password = "123456";
-        auth = FirebaseAuth.getInstance();
-
-        login(txt_email, txt_password);
-        firebaseUser = auth.getCurrentUser();
-        path = "Call_" + firebaseUser.getUid();
-
+        // check whether there are parameters from previous activity
         Bundle extras = getIntent().getExtras();
+        // If yes, show the message
         if (extras != null) {
             String message = extras.getString("message");
             Toast.makeText(StartingActivity.this, message, Toast.LENGTH_SHORT).show();
         }
 
+        path = "Call_" + phone;
         reference = FirebaseDatabase.getInstance().getReference(path);
 
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
-                for (DataSnapshot snapshot: dataSnapshot.getChildren()) {
-                    Call call = snapshot.getValue(Call.class);
-                    FirebaseUser firebaseUser = auth.getCurrentUser();
-                    if (call.getConnected() == 0 && call.getReceiver().equals(firebaseUser.getUid())) {
-                        token = call.getToken();
+                if (dataSnapshot.hasChild("call")) {
+                    if (dataSnapshot.child("call").hasChild("token")) {
+                        // get status from database
+//                    StartingActivity.this.status = dataSnapshot.child("call").child("status").getValue(Integer.class);
+                        // get token from database
+                        StartingActivity.this.token = dataSnapshot.child("call").child("token").getValue(String.class);
 
+                        // create an alert
                         AlertDialog.Builder alert = new AlertDialog.Builder(StartingActivity.this);
                         alert.setCancelable(false);
-                        alert.setTitle("You have a call from admin...");
-                        // alert.setMessage("Message");
+                        alert.setTitle("You have a call from client...");
 
                         // pick up the call from caller
                         alert.setPositiveButton("Pick up", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 Intent intent = new Intent(getBaseContext(), MainActivity.class);
+                                // pass two variables to next activity
                                 intent.putExtra("token", token);
                                 intent.putExtra("path", path);
                                 startActivity(intent);
@@ -78,41 +75,26 @@ public class StartingActivity extends AppCompatActivity {
                         // if choose cancel, update the Firebase and the call will end on caller's side
                         alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int whichButton) {
-                                reference = FirebaseDatabase.getInstance().getReference(path).child("call").child("connected");
+                                reference = FirebaseDatabase.getInstance().getReference(path).child("call").child("status");
                                 int newState = 2;
-                                reference.setValue(newState).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<Void> task) {
-                                        if (task.isSuccessful()) {
-                                        }
-                                    }
-                                });
+
+                                // update the status to 2
+                                reference.setValue(newState);
+                                Intent intent = new Intent(getBaseContext(), StartingActivity.class);
+                                startActivity(intent);
                             }
                         });
                         alert.show();
                     }
+
                 }
+
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
-    }
-
-    public void login(String txt_email, String txt_password) {
-        auth.signInWithEmailAndPassword(txt_email, txt_password)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-//                            Toast.makeText(StartingActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
-                        }
-                        else {
-//                            Toast.makeText(StartingActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
     }
 
     // disable the back button

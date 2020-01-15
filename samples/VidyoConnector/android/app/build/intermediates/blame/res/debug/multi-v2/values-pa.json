@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\android\\VidyoClient-AndroidSDK-receiver-v2\\samples\\VidyoConnector\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+            "outputFile": "D:\\android\\VidyoClient-AndroidSDK-receiver-v4\\samples\\VidyoConnector\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tiama\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.1.0.aar\\557c954ebd88f69d000c9fef78fcdb0a\\res\\values-pa\\values.xml",

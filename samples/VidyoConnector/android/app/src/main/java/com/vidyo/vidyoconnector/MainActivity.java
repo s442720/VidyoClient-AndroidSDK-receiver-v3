@@ -134,11 +134,10 @@ public class MainActivity extends Activity implements
     private String mRoomPin; // Used for VidyoCloud systems, not Vidyo.io
 
     private DatabaseReference reference;
-    private FirebaseUser firebaseUser;
-    private FirebaseAuth auth;
 
     private String token;
     private String path;
+    private int status;
     private Button stop;
 
     /*
@@ -174,10 +173,6 @@ public class MainActivity extends Activity implements
         button.setOnClickListener(this);
 
         mControlsLayout.setVisibility(View.GONE);
-
-        // Firebase setting
-        auth = FirebaseAuth.getInstance();
-        firebaseUser = auth.getCurrentUser();
 
         // get token from previous activity
         Bundle extras = getIntent().getExtras();
@@ -261,9 +256,9 @@ public class MainActivity extends Activity implements
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot snapshot: dataSnapshot.getChildren()) {
-                    Call call = snapshot.getValue(Call.class);
-                    if (call.getConnected() == 2) {
+                if (dataSnapshot.hasChild("call")) {
+                    MainActivity.this.status = dataSnapshot.child("call").child("status").getValue(Integer.class);
+                    if (status == 2) {
                         removeCallInDB();
                         mVidyoConnector.disconnect();
                     }
@@ -271,7 +266,6 @@ public class MainActivity extends Activity implements
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-
             }
         });
     }
@@ -623,11 +617,6 @@ public class MainActivity extends Activity implements
             mLogger.Log("VidyoConnectorConnect status = " + (mVidyoConnectorState == VidyoConnectorState.Connecting));
     }
 
-    public void removeCallInDB() {
-        reference = FirebaseDatabase.getInstance().getReference(path);
-        reference.removeValue();
-    }
-
     // Toggle visibility of the toolbar
     @Override
     public void onVideoFrameClicked() {
@@ -649,15 +638,11 @@ public class MainActivity extends Activity implements
     public void onSuccess() {
         mLogger.Log("onSuccess: successfully connected.");
         // update connected state in Firebase
-        reference = FirebaseDatabase.getInstance().getReference(path).child("call").child("connected");
+
+        reference = FirebaseDatabase.getInstance().getReference(path);
         int newState = 1;
-        reference.setValue(newState).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if (task.isSuccessful()) {
-                }
-            }
-        });
+        reference.child("call").child("status").setValue(newState);
+
 
         this.changeState(VidyoConnectorState.Connected);
     }
@@ -686,17 +671,20 @@ public class MainActivity extends Activity implements
             this.changeState(VidyoConnectorState.DisconnectedUnexpected);
         }
 
-        reference = FirebaseDatabase.getInstance().getReference(path).child("call").child("connected");
+        // update the status to 2
+        reference = FirebaseDatabase.getInstance().getReference(path);
         int newState = 2;
-        reference.setValue(newState).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if (task.isSuccessful()) {
-                }
-            }
-        });
+        reference.child("call").child("status").setValue(newState);
+
+        // go back to previous page
         Intent intent = new Intent(getBaseContext(), StartingActivity.class);
         startActivity(intent);
+    }
+
+    public void removeCallInDB() {
+        // delete current call datasheet in database
+        reference = FirebaseDatabase.getInstance().getReference(path);
+        reference.removeValue();
     }
 
     // Handle local camera events.
